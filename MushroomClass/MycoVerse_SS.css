@@ -1,0 +1,372 @@
+/* Nav bar style */
+
+.menu ul {
+    list-style: none;
+    margin: 0; /* same as below but top messes up the background if used often*/
+    padding: 0; /* pushes text for top,bottom,left,right */
+
+    display: flex; /* allows for things to be centered */
+    align-items: center; /* the thing that centers objects */
+
+    height: 75px;
+}
+
+.frame {
+    margin-right: auto;
+}
+
+.menu img {
+    height: 75px;
+    width: auto;
+}
+
+.menu {
+    background-color: #455086;
+    overflow: hidden;
+}
+
+.menu a {
+    float: right;
+    color: white;
+    text-align: center;
+    padding: 15px 20px; /* top and bottom padding */
+    text-decoration: none;
+    font-size: 17px;
+}
+
+/* Second Nav Bar */
+
+.nav {
+    margin: 0;
+    padding: 0;
+
+    display: flex;
+    align-items: center;
+
+    height: 40px;
+
+    display: flex;
+    text-align: center;
+    justify-content: right;
+    background-color: #60A040;
+    align-items: center;
+}
+
+.nav a {
+    float: right;
+    color: white;
+    text-align: center;
+    padding: 15px 17px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.nav a:hover {
+    background-color:antiquewhite;
+    color:black;
+}
+
+/* Logo Settings*/
+
+.Logo2 {
+    display: flex;
+    justify-content: CENTER;
+    align-items: CENTER;
+    padding-top: 50px;
+}
+
+/* Top Page */
+
+.header1 {
+    font-size: 60px;
+    padding: 30px;
+    text-align: Center;
+    text-decoration: underline;
+}
+
+.text1 {
+    font-size: 25px;
+    background-color: #98CE7C;
+    border: 7px solid #385F24;
+    text-align: center;
+    margin: 0 auto;
+    width: 850px;
+}
+
+.header2 {
+    font-size: 60px;
+    padding: 30px;
+    text-align: Center;
+    padding-top: 50px;
+}
+
+.text2 {
+    font-size: 27px;
+    background-color: #CFFFB6;
+    border: 4px solid #000000;
+    text-align: center;
+    margin: 0 auto;
+    width: 1000px;
+    padding-top: -25px;
+}
+
+/* Search bar */
+
+h2 {
+    font-size: 35px;
+    padding-top: 20px;
+}
+
+.search-section {
+    text-align: center;
+    padding: 20px;
+}
+
+.search-bar {
+    display: inline-flex;
+    align-items: center;
+    font-size: 30px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    padding-top: 50px;
+}
+
+.search-bar input {
+    padding: 10px;
+    width: 500px;
+}
+
+.icon {
+    margin-left: 8px;
+    margin-bottom: 5px;
+}
+
+.mush-class {
+    text-align: center;
+    margin: 20px 0;
+    font-size: 36px;
+}
+
+/* Mushroom Classifications */
+
+.class-container {
+    width: 80%;
+    margin: auto;
+    display: grid; /* Allows for the grid pattern*/
+    grid-template-columns: repeat(3,1fr); /* Allows for three rows in one column*/
+    gap: 20px;
+    padding: 20px;
+    background: #CFFFB6;
+    border: 7px solid #44772A;
+    border-radius: 8px;
+}
+
+.mush-card {
+    position: relative;
+    overflow: hidden; /* hides the link highlight*/
+    border-radius: 5px;
+}
+
+.mush-card img {
+    width: 100%;
+    height: 175px;
+    object-fit: cover;
+    display: block;
+}
+
+.mush-card:hover img {
+    transform: scale(1.05); /* makes the image a bit larger when hovered over */
+    transition: 0.3s /* time-span this occurs */
+}
+
+.sub-text {
+    position: absolute; /* cant move it */
+    bottom: 0;
+    width: 100%;
+    background: rgba(0,0,0,0.5); /* R, G, B, Transparency*/
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: 15px;
+}
+
+/* Newly Discovered*/
+
+.disc-desc {
+    color: white;
+    font-size: 58px;
+    padding-top: 20px;
+    padding-left: 30px;
+}
+
+.disc-desc hr {
+    size: 2px;
+    width: 95%;
+    margin-top: 10px;
+    padding-top: 2px;
+    padding-left: 30px;
+    border-color: none;
+}
+
+/* Newly Discovered Container */
+
+.disc-container {
+    width: 90%;
+    gap: 20px;
+    padding: 20px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+
+.discovery {
+    border: 7px solid #44772A;
+    border-radius: 8px;
+    flex-direction: column;
+    position: relative;
+    background-color: white;
+}
+
+.discovery h3 {
+    padding-top: 10px;
+    margin-bottom: -25px;
+    text-decoration: none;
+    color: grey;
+}
+
+.discovery h2 {
+    padding-bottom: 10px;
+    color: black;
+}
+
+.discover p, a {
+    font-size: 20px;
+    color: black;
+}
+
+.discovery img {
+    width: 100%;
+    height: 175px;
+    object-fit: cover;
+    display: block;
+}
+
+.discover:hover img {
+    transform: scale(1.05);
+    transition: 0.3s
+}
+
+/* Homepage end */
+
+.end {
+    color: black;
+    padding-top: 20px;
+    padding-left: 30px;
+}
+
+.end p {
+    padding-top: 5px;
+    font-size: 22px;
+}
+
+.end hr {
+    size: 2px;
+    width: 95%;
+    margin-top: 20px;
+    padding-top: 2px;
+    padding-left: 30px;
+}
+
+/* end content */
+
+.end-content {
+    display: flex;
+    justify-content: space-between; /* Evenly distributes content*/
+    align-items: center;
+    padding: 30px 40px;
+}
+
+.end-content2 {
+    flex: 1;
+    text-align: center;
+    padding-top: -20px;
+}
+
+/* Vertical lines on the side */
+
+.end-content2:not(:last-child) {
+    border-right: 2px solid black;
+}
+
+.socials {
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+
+.end-content h2 {
+    font-size: 25px;
+}
+
+/* Buttons */
+
+.about-us {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    align-items: center;
+}
+
+.contact h2 {
+    font-weight: bold;
+    font-size: 35px
+}
+
+.contact h3 {
+    padding-top: 20px;
+    font-size: 25px;
+}
+
+.about-us button {
+    background: #3C5B2C;
+    color: white;
+    border: none;
+    padding: 15px 40px;
+    border-radius: 40px;
+    font-size: 20px;
+}
+
+/* Footer */
+footer {
+    font-size: 20px;
+    color: white;
+    background-color: #3C5B2C;
+    text-align: center;
+}
+
+/* Background Effects */
+
+* {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.bg1 {
+    background-color: #D0F0C0;
+}
+
+.bg2 {
+    background: #8FD56C;
+}
+
+.bg3 {
+    background: #739C5E;
+}
+
+.bg4 {
+    background: #F1FFE9;
+}

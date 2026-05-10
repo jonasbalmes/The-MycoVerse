@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="MycoVerse_SS.css" type="text/css">
+    <style>
+
+        /* containers */
+
+        .container {
+            display: flex;
+            gap:25px;
+            padding: 20px
+        }
+
+        .left-side {
+            flex: 2;
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+
+        .right-side {
+            flex: 1;
+        }
+
+        /* borders */
+
+        .border-above {
+            color: white;
+            background: #598F3E;
+            height: 100px;
+        }
+
+        .border-above h2, h3 {
+            padding-left: 20px;
+        }
+
+        .border-below {
+            color: white;
+            background: #598F3E;
+            height: 470px;
+            z-index: 1;
+        }
+
+        .border-below p, h2 {
+            padding-top: 20px;
+            padding-left: 20px;
+            padding-bottom: 10px;
+        }
+
+        .border-below hr {
+            display: flex;
+            align-items: center;
+            width: 95%;
+            padding: 1px;
+            margin-left: 20px;
+        }
+
+        .border-below p {
+            font-size: 18px;
+        }
+
+        .border-right {
+            background: #598F3E;
+            height: 590px;
+        }
+
+        .border-right h3{
+            padding-top: 15px;
+            padding-bottom: 15px;
+            font-size: 25px;
+            margin-left: -20px;
+            color:white;
+            text-align: center;
+        }
+
+        .border-right hr {
+            display: flex;
+            align-items: center;
+            width: 89%;
+            padding: 1px;
+            margin-left: 20px;
+        }
+
+        .border-right img {
+            padding: 10px;
+            width: 95%;
+            height: 50%;
+        }
+    </style>
+</head>
+<body>
+    <body>
+    <nav class="bg1">
+        <nav class="menu">
+            <ul>
+                <li class="frame">
+                    <a href="Home.html">
+                        <img src="Images/Frame 1.jpg" alt="Home">
+                    </a>
+                </li>
+            </ul>
+        </nav>
+
+        <nav class="nav">
+            <a href="Class.html">Home</a>
+            <a href="Class.html">Browse Classifications</a>
+            <a href="Contribution.html">Contribute Data</a>
+            <a href="Inquiries.html">Inquiries</a>
+        </nav>
+
+        <br><br>
+
+        <div class="container">
+            <div class="left-side">
+                <div class = "border-above">
+                    <h2>Lobster Mushroom</h2>
+                    <h3>Hypomyces lactifluorum</h3>
+                </div>
+                <div class = "border-below">
+                    <h2> Description </h2>
+                    <hr color="white">
+                    <p> 
+                        Hypomyces lactifluorum, more commonly known as the Lobster mushroom is a
+                        type of parasitic mushroom that grows on specific species of mushroom,
+                        turning them into a reddish orange color that resembles the outer shell of
+                        a cooked lobster.
+                        <br><br>
+                        This type of mushroom can be found in wooded areas, often near short-stemmed
+                        russula or milk-caps, growing in conifer forests, in particular under 
+                        ponderosa pine in the American Southwest and the Pacific Northwest. Its 
+                        range in the woods has been described as "solitary, scattered, or gregarious"
+                    </p>
+
+                    <h2> Parasitism </h2>
+                    <hr color="white">
+                    <p>
+                        This mushroom type of mushroom specifically attacks members of the genera
+                        Lactarius and Lactifluus, as well as Rusulla, such as Russula brevipes and
+                        Lactifluus piperatus in North America. At maturity, the reddish orange 
+                        thoroughly covers its host, rendering it unidentifiable. As it ages, it's
+                        color can go from the entire sporocap surface and lamella to the margin of
+                        the mushroom. This species is edible, although can become poisonous if it
+                        had a formerly toxic host.
+                    </p>
+                </div>
+            </div>
+
+            <div class = "right-side">
+                <div class = "border-right">
+                    <img src="Images/Lobster.jpg">
+                    <hr color="white">
+                    <h3>Classification: Parasitic</h3>
+                    <hr color="white">
+                    <h3>Family: Hypocreaceae</h3>
+                    <hr color="white">
+                    <h3>Genus: Hypomyces</h3>
+                    <hr color="white">
+                    <h3>Edible? Yes, if host isn't toxic</h3>
+                </div>
+            </div>
+        </div>
+    </nav>
+</body>
+</html>

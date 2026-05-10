@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="MycoVerse_SS.css" type="text/css">
+    <style>
+        .container {
+            width: 90%;
+            display: flex;
+            margin: auto;
+            gap: 20px;
+            padding: 20px;
+            background: #598F3E;
+            border: 7px solid #44772A;
+            border-radius: 8px;
+        }
+
+        .sidenav {
+            width: 175px;
+            position: left;
+            z-index: 1; /* stacks things vertically */
+            top: 50px;
+            left: 20px;
+            background: #598F3E;
+            overflow-x: hidden; /* hides text that are too wide to fit */
+            padding: 10px 0;
+        }
+
+        .sidenav a {
+            padding: 6px 8px 10px 10px; 
+            text-decoration: none;
+            font-size: 20px;
+            color: white;
+            display: block;
+            border-bottom: 2px solid white; /* Adds the bottom lines */
+            text-align: center;
+        }
+
+        .sidenav a:hover {
+            background: #F1FFE9;
+            color: #064579;
+        }
+
+        .sidenav h3 {
+            color: white;
+            display: flex;
+            font-size: 25px;
+            text-align: center;
+
+            padding-bottom: 20px;
+        }
+
+        .main {
+            font-size: 28px;
+            color: white;
+            margin-left: 10px;
+            padding: 0px 10px;
+        }
+
+        .main h2 {
+            padding-bottom: 10px;
+            font-size: 25px;
+        }
+        
+        .main p {
+            font-size: 20px;
+            padding-bottom: 10px;
+        }
+
+        .main hr {
+            padding: 1px;
+            margin-bottom: 10px;
+        }
+
+        ul a {
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <body>
+    <nav class="bg1">
+        <nav class="menu">
+            <ul>
+                <li class="frame">
+                    <a href="Home.html">
+                        <img src="Images/Frame 1.jpg" alt="Home">
+                    </a>
+                </li>
+            </ul>
+        </nav>
+
+        <nav class="nav">
+            <a href="index.html">Home</a>
+            <a href="All.html">Browse Classifications</a>
+            <a href="Contribution.html">Contribute Data</a>
+            <a href="Inquiries.html">Inquiries</a>
+        </nav>
+
+        <br><br>
+
+        <nav class = "container">
+            <div class="sidenav">
+                <h3> Mushroom Classifications</h3>
+                <a href = "All.html">All <br> Mushrooms</a>
+                <a href = "Edible.html">Edible <br> Mushrooms</a>
+                <a href = "Medicinal.html">Medicinal <br>Mushrooms</a>
+                <a href = "Psycho.html">Psychoactive <br> Mushrooms</a>
+                <a href = "Toxic.html">Toxic <br> Mushrooms</a>
+                <a href = "Parasitic.html">Parasitic <br> Mushrooms</a>
+            </div>
+
+            <div class = "main">
+                <h2>Psychoactive Mushrooms</h2>
+                <p>A category that contains mushrooms with psychoactive or hallucinogenic properties.
+                </p>
+
+                <hr color="white">
+
+                <ul>
+                    <li>
+                        <a href="Liberty.html">Psilocybe semilanceata (Liberty Cap)</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </nav>
+</body>
+</html>

@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="MycoVerse_SS.css" type="text/css">
+    <style>
+
+        .contribute-parent {
+            display: flex;
+            justify-content: center;
+        }
+
+        .contribute {
+            color: white;
+            width: 90%;
+            padding: 20px;
+            background: #598F3E;
+            border: 7px solid #44772A;
+            border-radius: 8px;
+        }
+        
+        .contribute h3 {
+            padding-top: 20px;
+        }
+
+        .contribute hr {
+            margin-top: 20px;
+            padding: 1px;
+        }
+
+        .checkbox {  
+            display: flex;
+            align-items: center;
+            font-size: 20px;
+            margin-top: 10px;
+        }
+
+        .checkbox input[type="checkbox"] {
+            margin-left: 10px;
+            margin-right: 5px;
+            height: 15px;
+            width: 15px;
+        }
+
+        .information-insert {
+            margin-top: 10px;
+        }
+
+        .information-insert input[type="text"] {
+            height: 20px;
+            width: 250px;
+        }
+
+        .info {
+            padding-top: 10px;
+        }
+
+        .submit {
+            padding-top: 20px;
+            height: 20px;
+            width: 250px;
+        }
+    </style>
+</head>
+<body>
+    <body>
+    <nav class="bg1">
+        <nav class="menu">
+            <ul>
+                <li class="frame">
+                    <a href="Home.html">
+                        <img src="Images/Frame 1.jpg" alt="Home">
+                    </a>
+                </li>
+            </ul>
+        </nav>
+
+        <nav class="nav">
+            <a href="Home.html">Home</a>
+            <a href="Class.html">Browse Classifications</a>
+            <a href="Contribution.html">Contribute Data</a>
+            <a href="Inquiries.html">Inquiries</a>
+        </nav>
+
+        <br>
+
+        <div class="contribute-parent">
+            <div class="contribute">
+                <h2>Contribute Data</h2>
+                <h3>Help Contribute to our database by providing us extra information or if you think
+                    there are innacurate information within the site. We appreciate your help, thank you!
+                </h3>
+                <hr color="white">
+
+                <h3>Contribution Type</h3>
+                <div class="checkbox">
+                    <input type="checkbox">New Mushroom
+                    <input type="checkbox">Information Addition
+                    <input type="checkbox">Information Correction
+                </div>
+
+                <h3>Insert Image (Optional)</h3>
+                <div class="information-insert">
+                    <input type="file" accept="image/*">
+                </div>
+
+                <h3>Mushroom Binomial Name</h3>
+                <div class="information-insert">
+                    <input type="text" name="SciName" placeholder="Enter Binomial name">
+                </div>
+
+                <h3>Mushroom Genus</h3>
+                <div class="information-insert">
+                    <input type="text" name="username" placeholder="Enter Common Name">
+                </div>
+
+                <h3>Mushroom Common Name</h3>
+                <div class="information-insert">
+                    <input type="text" name="username" placeholder="Enter Common Name">
+                </div>
+
+                <h3>Mushroom Information</h3>
+                <div class="info"> 
+                    <!--big text area-->
+                    <textarea rows="20" cols="120">Enter information here...</textarea>
+                </div>
+
+                <div class="submit">
+                    <button type="submit">Submit Information</button>
+                </div>
+            </div>
+        </div>
+    </nav>
+</body>
+</html>

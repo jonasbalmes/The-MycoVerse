@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="MycoVerse_SS.css" type="text/css">
+    <style>
+
+        /* containers */
+
+        .container {
+            display: flex;
+            gap:25px;
+            padding: 20px
+        }
+
+        .left-side {
+            flex: 2;
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+
+        .right-side {
+            flex: 1;
+        }
+
+        /* borders */
+
+        .border-above {
+            color: white;
+            background: #598F3E;
+            height: 100px;
+        }
+
+        .border-above h2, h3 {
+            padding-left: 20px;
+        }
+
+        .border-below {
+            color: white;
+            background: #598F3E;
+            height: 470px;
+            z-index: 1;
+        }
+
+        .border-below p, h2 {
+            padding-top: 20px;
+            padding-left: 20px;
+            padding-bottom: 10px;
+        }
+
+        .border-below hr {
+            display: flex;
+            align-items: center;
+            width: 95%;
+            padding: 1px;
+            margin-left: 20px;
+        }
+
+        .border-below p {
+            font-size: 18px;
+        }
+
+        .border-right {
+            background: #598F3E;
+            height: 590px;
+        }
+
+        .border-right h3{
+            padding-top: 15px;
+            padding-bottom: 15px;
+            font-size: 25px;
+            margin-left: -20px;
+            color:white;
+            text-align: center;
+        }
+
+        .border-right hr {
+            display: flex;
+            align-items: center;
+            width: 89%;
+            padding: 1px;
+            margin-left: 20px;
+        }
+
+        .border-right img {
+            padding: 10px;
+            width: 95%;
+            height: 50%;
+        }
+    </style>
+</head>
+<body>
+    <body>
+    <nav class="bg1">
+        <nav class="menu">
+            <ul>
+                <li class="frame">
+                    <a href="Home.html">
+                        <img src="Images/Frame 1.jpg" alt="Home">
+                    </a>
+                </li>
+            </ul>
+        </nav>
+
+        <nav class="nav">
+            <a href="Class.html">Home</a>
+            <a href="Class.html">Browse Classifications</a>
+            <a href="Contribution.html">Contribute Data</a>
+            <a href="Inquiries.html">Inquiries</a>
+        </nav>
+
+        <br><br>
+
+        <div class="container">
+            <div class="left-side">
+                <div class = "border-above">
+                    <h2>Giant Puffball</h2>
+                    <h3>Calvatia gigantea</h3>
+                </div>
+                <div class = "border-below">
+                    <h2> Description </h2>
+                    <hr color="white">
+                    <p> 
+                        Calvatia gigantea, more commonly known as the Giant puffball is a type
+                        of Edible mushroom that can be found in meadows, fields, and deciduous forests
+                        during late summer and autumn and can be found within temperate areas of the 
+                        world.
+                        <br><br>
+                        The interior of an immature puffball is white, while that of a mature
+                        specimen is greenish brown. This mushroom develops within a few weeks and
+                        soon begins to decompose and rot, at which point it becomes dangerous to consume.
+                        Unlike most mushrooms, all the spores are develop inside the mushroom with mature
+                        specimens containing several trillions.
+                    </p>
+
+                    <h2> Culinary use </h2>
+                    <hr color="white">
+                    <p>
+                        This mushroom is edible when young, and so do other puffballs, however they may
+                        cause digestive issues if the spores have begun to form as indicated by the 
+                        yellowish or greenish-brown flesh instead of being pure white, and should be discarded
+                        immediately. Some people may also experience laxative effects when consuming
+                        this species.
+                    </p>
+                </div>
+            </div>
+
+            <div class = "right-side">
+                <div class = "border-right">
+                    <img src="Images/Puffballs.jpg">
+                    <hr color="white">
+                    <h3>Classification: Edible</h3>
+                    <hr color="white">
+                    <h3>Family: Agaricales</h3>
+                    <hr color="white">
+                    <h3>Genus: Calvatia</h3>
+                    <hr color="white">
+                    <h3>Edible? Yes, if young</h3>
+                </div>
+            </div>
+        </div>
+    </nav>
+</body>
+</html>
